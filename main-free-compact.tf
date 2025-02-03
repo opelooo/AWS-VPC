@@ -9,10 +9,10 @@ Network CIDR: 172.31.0.1/27
 Subnet 1 : 172.31.0.0/28
 Subnet 2 : 172.31.0.16/28
 
-region jakarta 1
+region jakarta
 */
 provider "aws" {
-  region = "ap-southeast-1" # singapore 1, sydney 2 # Ganti dengan region Anda
+  region = "ap-southeast-3" # singapore 1, sydney 2, jakarta 3 # Ganti dengan region Anda
 }
 
 # Create VPC dengan Subnet Public dan Privat
